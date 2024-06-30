@@ -1,0 +1,1 @@
+## This is a short term real-time crypto prices predictor.
