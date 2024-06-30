@@ -49,4 +49,4 @@ def produce_trade(kafka_broker_address: str, kafka_topic: str) -> None:
 
 
 if __name__ == '__main__':
-    produce_trade(kafka_broker_address='localhost:19092', kafka_topic='trade')
+    produce_trade(kafka_broker_address='redpanda-0:9092', kafka_topic='trade')
