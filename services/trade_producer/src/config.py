@@ -6,13 +6,14 @@ load_dotenv(find_dotenv())
 
 
 #add pydantic settings
-from pydantic_settings import BaseSettings
+from pydantic import BaseSettings
 
 class Config(BaseSettings):
-    product_id: str = 'ETH/USD'
+    product_id: str = os.environ['PRODUCT_ID']
     kafka_broker_address: str = os.environ['KAFKA_BROKER_ADDRESS']
-    kafka_topic: str = 'trade'
-    ohlc_window_seconds : int = os.environ['OHLC_WINDOW_SECONDS']
+    kafka_topic_name: str = 'trade'
+
+    # ohlc_window_seconds : int = os.environ['OHLC_WINDOW_SECONDS']
 
 config = Config()
 
