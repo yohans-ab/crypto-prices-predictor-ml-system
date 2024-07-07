@@ -6,7 +6,7 @@ load_dotenv(find_dotenv())
 
 
 #add pydantic settings
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 class Config(BaseSettings):
     product_id: str = os.environ['PRODUCT_ID']
