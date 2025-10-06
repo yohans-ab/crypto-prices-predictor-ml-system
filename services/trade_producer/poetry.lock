@@ -213,6 +213,17 @@ win32-setctime = {version = ">=1.0.0", markers = "sys_platform == \"win32\""}
 dev = ["Sphinx (==7.2.5)", "colorama (==0.4.5)", "colorama (==0.4.6)", "exceptiongroup (==1.1.3)", "freezegun (==1.1.0)", "freezegun (==1.2.2)", "mypy (==v0.910)", "mypy (==v0.971)", "mypy (==v1.4.1)", "mypy (==v1.5.1)", "pre-commit (==3.4.0)", "pytest (==6.1.2)", "pytest (==7.4.0)", "pytest-cov (==2.12.1)", "pytest-cov (==4.1.0)", "pytest-mypy-plugins (==1.9.3)", "pytest-mypy-plugins (==3.0.0)", "sphinx-autobuild (==2021.3.14)", "sphinx-rtd-theme (==1.3.0)", "tox (==3.27.1)", "tox (==4.11.0)"]
 
 [[package]]
+name = "makefile"
+version = "1.1.0"
+description = "makefile is python package to read makefile variables"
+optional = false
+python-versions = "*"
+files = [
+    {file = "makefile-1.1.0-py3-none-any.whl", hash = "sha256:0ce3c081041b8e933dd1a60ed54e9c12a1296a98f6f2c3808a375778b760d02d"},
+    {file = "makefile-1.1.0.tar.gz", hash = "sha256:e311d56f4535793f48416e0d7134f4d77c7633ee10bed8e00f0dc2962cecff66"},
+]
+
+[[package]]
 name = "orjson"
 version = "3.10.5"
 description = "Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy"
@@ -556,4 +567,4 @@ dev = ["black (>=19.3b0)", "pytest (>=4.6.2)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "88483ed3650990bc8733ffab510d28b30f669ca2c99c814fe43be2dff6c80577"
+content-hash = "2b57d1f98591d9cf84497f4546845237aab9c2e63a7b2d905330995098bee0bc"
